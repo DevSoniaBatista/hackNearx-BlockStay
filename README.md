@@ -74,7 +74,7 @@ npm install
 ```
 
 ```bash
-#install dependencies
+#open interface web
 npm run dev 
 ```
 

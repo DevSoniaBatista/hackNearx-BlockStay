@@ -60,45 +60,22 @@ https://sepolia.etherscan.io/address/0x1c679a3Abb9a09450a141b5e434d11146DaF7D55
 ### How execute
 ```bash
 #clone the project
-git clone https://github.com/DevSoniaBatista/oly-polygon.git
+git clone https://github.com/DevSoniaBatista/hackNearx-BlockStay.git
 ```
 
 ```bash
 #enter directory
-cd oly-polygon
+cd hackNearx-BlockStay/frontend
 ```
 
 ```bash
 #install dependencies
-yarn install
-```
- 
-To run locally, open 3 terminals:
-
-On a first terminal, execute hardhat
-```bash
-#execute hardhat locally
-cd package/hardhat
-yarn chain
+npm install 
 ```
 
-On a second terminal, deploy the contract:
 ```bash
-#deploy the contract locally
-cd package/hardhat
-yarn generate
-yarn deploy 
-```
-
-On the file: packages/nextjs/scaffold.config.ts change the line 13:
-From: targetNetworks: [chains.polygonZkEvmCardona],
-To:   targetNetworks: [chains.hardhat],
-
-On a third terminal, start DApp:
-```bash
-#Launch the DApp
-cd package/nextjs
-yarn start 
+#install dependencies
+npm run dev 
 ```
 
 It will open the interface web at http://localhost:3000
